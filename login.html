@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <!--Import Google Icon Font-->
+  <link href="http://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+  <!--Import materialize.css-->
+  <link type="text/css" rel="stylesheet" href="css/materialize.min.css"  media="screen,projection"/>
+  <link type="text/css" rel="stylesheet" href="css/style.login.css" />
+  <!--Let browser know website is optimized for mobile-->
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+</head>
+
+<body>
+  <nav>
+	<div class="container">
+		<!--<a href="" data-activates="slide-out" class="button-collapse"><i class="material-icons">menu</i></a>-->
+		<div class="nav-wrapper">
+		  <a href="#" class="brand-logo left">
+			<img src="img/doggy.png">
+		  </a>
+		</div>
+	</div>
+  </nav>
+  <div id="">
+		<div class="container">
+			<div class="row">
+				<div class="col l7 m7 s12">
+					<div class="box-conteudo-esquerda">
+						<h1 class="titulo">Bem-Vindo ao Doggy, faça perguntas e responda à vontade aos seus amigos.</h1>
+						<blockquote>Siga comunidades,grupos e seus amigos agora mesmo.</blockquote>
+						<ul>
+							<li class="lista-home"><i class="material-icons">done</i> Faça novas amizades.</li>
+							<li class="lista-home"><i class="material-icons">done</i> Divirta-se com as comunidades.</li>
+							<li class="lista-home"><i class="material-icons">done</i> Siga e responda os tópicos das comunidades.</li>
+						</ul>
+					</div>
+				</div>
+				<div class="col l5 m5 s12">
+					<div class="box-conteudo-direita">
+						<p class="texto-login">Faça seu login</p>
+						<form action="vld-login.php" method="post" autocomplete="off">
+							<div class="input-field col s12">
+							  <input id="email" name="email" title="email" type="email" required>
+							  <label for="email">Email</label>
+							</div>
+							<div class="input-field col s12">
+							  <input id="senha" name="senha" type="password" required>
+							  <label for="senha">Senha</label>
+							</div>
+							<p class="recuperar-senha">
+								<a href="recuperar-senha.php">Esqueceu sua senha?</a>
+							</p>							
+							<div class="center-align">
+								<button class="btn waves-effect btn-login" type="submit" name="entrar">Entrar</button>
+							</div>							
+						</form>
+						<section id="cadastre-se">
+							<div class="container">
+								<div class="center-align">									
+									<a href="cadastrar.php" class="btn waves-effect btn-singup">Seja um doggy!</a>
+								</div>
+							</div>
+						  </section>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+  <!--Import jQuery before materialize.js-->
+  <script type="text/javascript" src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
+  <script type="text/javascript" src="js/materialize.min.js"></script>
+  <script>
+	$(".button-collapse").sideNav();
+  </script>
+
+</body>
+</html>

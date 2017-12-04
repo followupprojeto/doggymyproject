@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <!--Import Google Icon Font-->
+  <title>Follow Up | Registrar</title>
+  <link href="http://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+  <!--Import materialize.css-->
+  <link type="text/css" rel="stylesheet" href="css/materialize.min.css"  media="screen,projection"/>
+  <link type="text/css" rel="stylesheet" href="css/style.login.css" />
+  <!--Let browser know website is optimized for mobile-->
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+</head>
+
+<body>
+  <nav>
+	<div class="container">
+		<!--<a href="" data-activates="slide-out" class="button-collapse"><i class="material-icons">menu</i></a>-->
+		<div class="nav-wrapper">
+		  <a href="#" class="brand-logo center">
+			<img src="img/logo-branco.png">
+		  </a>
+		  <!--<ul id="slide-out" class="side-nav">
+			<li><a href="collapsible.html">Cadastre-se</a></li>
+		  </ul>
+		  <ul class="right hide-on-med-and-down">
+			<li><a href="collapsible.html">Cadastre-se</a></li>
+		  </ul>-->
+		</div>
+	</div>
+  </nav>
+  <div id="">
+		<div class="container">
+			<div class="row">
+				<div class="col s12 m8 offset-m2 l6 offset-l3">
+					<div class="box-conteudo-esquerda">
+					<font color=white><h3>Crie sua nova conta!</h3></font>
+						<form class="" method="post" action="#">						
+						<div class="form-group">
+							<label for="name" class="cols-sm-2 control-label"></label>
+							<div class="cols-sm-10">
+								<div class="input-group">
+									<span class="input-group-addon"><i class="fa fa-user fa" aria-hidden="true"></i></span>
+									<input type="text" class="form-control" name="nome" id="nome"  placeholder="Primeiro nome"/>
+								</div>
+							</div>
+						</div>
+						<div class="form-group">
+							<label for="name" class="cols-sm-2 control-label"></label>
+							<div class="cols-sm-10">
+								<div class="input-group">
+									<span class="input-group-addon"><i class="fa fa-user fa" aria-hidden="true"></i></span>
+									<input type="text" class="form-control" name="ultimonome" id="ultimonome"  placeholder="Ultimo nome"/>
+								</div>
+							</div>
+						</div>
+
+						<div class="form-group">
+							<label for="email" class="cols-sm-2 control-label"></label>
+							<div class="cols-sm-10">
+								<div class="input-group">
+									<span class="input-group-addon"><i class="fa fa-envelope fa" aria-hidden="true"></i></span>
+									<input type="text" class="form-control" name="email" id="email"  placeholder="Email"/>
+								</div>
+							</div>
+						</div>
+
+						<div class="form-group">
+							<label for="username" class="cols-sm-2 control-label"></label>
+							<div class="cols-sm-10">
+								<div class="input-group">
+									<span class="input-group-addon"><i class="fa fa-users fa" aria-hidden="true"></i></span>
+									<input type="text" class="form-control" name="celular" id="celular"  placeholder="Seu celular" maxlength="14"/>
+								</div>
+							</div>
+						</div>
+						<div class="form-group">
+							<label for="data" class="cols-sm-2 control-label"></label>
+							<div class="cols-sm-10">
+								<div class="input-group">
+									<span class="input-group-addon"><i class="fa fa-users fa" aria-hidden="true"></i></span>
+									<input type="text" class="date" name="aniversario" id="aniversario"  placeholder="Data de Aniversário" maxlength="10"/>
+								</div>
+							</div>
+						</div>
+						<div class="mtm _5wa2 _5dbb" id="u_0_m">
+						<span class="_5k_3" data-type="radio" data-name="gender_wrapper" id="u_0_n">
+							<span class="_5k_2 _5dba"><input type="radio" name="sex" value="1" id="u_0_k">
+							<label class="_58mt" for="u_0_k">Feminino</label>
+							</span>
+							<span class="_5k_2 _5dba">
+							<input type="radio" name="sex" value="2" id="u_0_l">
+							<label class="_58mt" for="u_0_l">Masculino</label></span>
+						</span>						
+						<div class="form-group">
+							<label for="password" class="cols-sm-2 control-label"></label>
+							<div class="cols-sm-10">
+								<div class="input-group">
+									<span class="input-group-addon"><i class="fa fa-lock fa-lg" aria-hidden="true"></i></span>
+									<input type="password" class="form-control" name="senha" id="senha"  placeholder="Sua senha"/>
+								</div>
+							</div>
+						</div>
+
+						<div class="form-group">
+							<label for="confirm" class="cols-sm-2 control-label"></label>
+							<div class="cols-sm-10">
+								<div class="input-group">
+									<span class="input-group-addon"><i class="fa fa-lock fa-lg" aria-hidden="true"></i></span>
+									<input type="password" class="form-control" name="confirmasenha" id="confirmasenha"  placeholder="Confirma sua senha"/>
+								</div>
+							</div>
+						</div>
+						<div id="politica">
+							<font color=#FFF><p class="texto-politica">
+								Ao clicar em Registrar, você concorda com nossos <a href="termos.php"> Termos de uso</a> e que leu nossa Política de Dados, incluindo nosso Uso de Cookies.
+							</p><br/></font>
+						</div>
+						<div class="form-group ">
+							<a href="vld-cadastro.php"  type="button" id="button-registrar" class="btn btn-primary btn-lg btn-block login-button">Registrar</a>
+						</div>						
+					</form>					
+					</div>
+				</div>				
+			</div>
+		</div>
+	</div>
+  <!--Import jQuery before materialize.js-->
+  <script type="text/javascript" src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
+  <script type="text/javascript" src="js/materialize.min.js"></script>
+  <script>
+  $(document).ready(function(){
+  $('.date').mask('00/00/0000');
+	$(".button-collapse").sideNav();
+  }
+  </script>
+
+</body>
+</html>

@@ -1,0 +1,156 @@
+.brand-logo img{
+    width: 60px;
+    margin: 5px 0;
+}
+nav {
+    background-color: rgba(0, 0, 0, 0.2);
+}
+html{
+	background:url(../img/background.jpg) no-repeat center center fixed;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+}
+.box-conteudo-esquerda{
+    background: rgba(0, 0, 0, 0.2);
+    margin: 60px 0px;
+    width: 100%;
+    padding: 10px 20px;
+	box-shadow: 0px 0px 5px 2px rgba(0, 0, 0, 0.5);
+    border: 1px solid rgba(0, 0, 0, 0.13);
+    border-radius: 40px 0 40px 0;
+}
+.box-conteudo-direita {
+    background: rgba(0, 0, 0, 0.2);
+    margin: 60px 0px;
+    width: 100%;
+    padding: 10px 20px;
+    height: 410px;
+	box-shadow: 0px 0px 5px 2px rgba(0, 0, 0, 0.5);
+}
+h3 {
+	color: #FFF;
+    text-shadow: 3px 3px 3px #000;
+		
+}
+.recuperar-senha{
+    text-align: right;
+    text-shadow: 3px 3px 3px #000;
+    
+}
+.texto-login{
+	text-align: center;
+    color: #fff;
+    text-transform: uppercase;
+    font-size: 30px;
+    font-weight: 300;
+    text-shadow: 3px 3px 3px #000;
+}
+input:not([type]):focus:not([readonly]), input[type=text]:focus:not([readonly]), input[type=password]:focus:not([readonly]), input[type=email]:focus:not([readonly]), input[type=url]:focus:not([readonly]), input[type=time]:focus:not([readonly]), input[type=date]:focus:not([readonly]), input[type=datetime-local]:focus:not([readonly]), input[type=tel]:focus:not([readonly]), input[type=number]:focus:not([readonly]), input[type=search]:focus:not([readonly]), textarea.materialize-textarea:focus:not([readonly]) {
+    border-bottom: 1px solid #FFFFFF;
+    box-shadow: 0 1px 0 0 #FFFFFF;
+}
+input:not([type]):focus:not([readonly])+label, input[type=text]:focus:not([readonly])+label, input[type=password]:focus:not([readonly])+label, input[type=email]:focus:not([readonly])+label, input[type=url]:focus:not([readonly])+label, input[type=time]:focus:not([readonly])+label, input[type=date]:focus:not([readonly])+label, input[type=datetime-local]:focus:not([readonly])+label, input[type=tel]:focus:not([readonly])+label, input[type=number]:focus:not([readonly])+label, input[type=search]:focus:not([readonly])+label, textarea.materialize-textarea:focus:not([readonly])+label {
+    color: #FFFFFF;
+}
+input:not([type]), input[type=text], input[type=password], input[type=email], input[type=url], input[type=time], input[type=date], input[type=datetime-local], input[type=tel], input[type=number], input[type=search], textarea.materialize-textarea {
+    background-color: transparent;
+    border: none;
+    border-bottom: 1px solid #FFFFFF;
+    border-radius: 0;
+    outline: none;
+    height: 3rem;
+    width: 100%;
+    font-size: 1rem;
+    margin: 0 0 15px 0;
+    padding: 0;
+    box-shadow: none;
+    box-sizing: content-box;
+    transition: all .3s;
+	color:#fff;
+}
+.input-field label {
+    color: #FFFFFF;
+    position: absolute;
+    top: 0.8rem;
+    left: 0.75rem;
+    text-shadow: 3px 3px 3px #000;
+    font-size: 1.2em;
+    cursor: text;
+    transition: .2s ease-out;
+}
+.btn-login{
+	background: #FFF;
+    color: #000;
+	margin: 0px 0 0 0;
+}
+.btn-singup{
+	background: #FFF;
+    color: #000;
+	margin: 23px 0 0 0;
+	
+}
+.btn:hover, .btn-large:hover {
+    background-color: #fff;
+}
+.titulo{
+    color: #FFF;
+    font-size: 40px;
+    text-shadow: 3px 3px 3px #000;
+    text-transform: uppercase;
+    font-weight: 300;
+}
+blockquote{
+	border-left: 5px solid #FFFFFF;
+    color: #fff;
+    font-size: 25px;
+    font-weight: 300;
+    text-shadow: 3px 3px 3px #000;
+}
+.lista-home{
+	color: #fff;
+    font-size: 23px;
+    text-shadow: 3px 3px 3px #000;
+    font-weight: 300;
+}
+
+.login-button{
+    color: white;
+    background-color: #e7353580;
+}
+._58mt{
+    color:white;
+}
+::-webkit-input-placeholder {
+   color: white;
+}
+
+:-moz-placeholder { /* Firefox 18- */
+   color: white;  
+}
+
+::-moz-placeholder {  /* Firefox 19+ */
+   color: white;  
+}
+
+:-ms-input-placeholder {  
+   color: red;  
+}
+@media screen and (max-width: 1020px){
+	.container {
+		width: 80%;
+	}
+	.box-conteudo-esquerda{
+		width: 100% !important;
+	}
+	.box-conteudo-direita{
+		width: 100% !important;
+	}
+}
+@media screen and (max-width: 403px){
+	.brand-logo img{
+		width: 150px;
+		margin: 10px 0;
+	}
+}
